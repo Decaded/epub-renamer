@@ -43,30 +43,30 @@ wget https://raw.githubusercontent.com/Decaded/epub-renamer/master/renamer.sh
 chmod +x renamer.sh
 ```
 
-3. Run the Script: Execute the script with:
+3. **Run the Script**: Execute the script with:
 
 ```sh
 ./renamer.sh
 ```
 
-## Example Folder Structure
+## Folder Structure
 
 This structure represents how your existing folder structure should be organized for the script to work effectively.
 
 ```sh
-- Root_Folder
-  - Light_Novel_Series
+- My ePubs
+  - Light Novel Series
     - Volume 01.epub
     - Volume 02.epub
     - Volume 03.epub
 
-  - Another_Light_Novel
+  - Another Light Novel
     - Volume 01.epub
     - Volume 02.epub
     - Volume 03.epub
 
-  - Random_Folder
-    - Random_File.epub
+  - Random Folder
+    - Random File.epub
 
 ```
 
