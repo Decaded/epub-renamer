@@ -51,23 +51,40 @@ chmod +x renamer.sh
 
 ## Folder Structure
 
-This structure represents how your existing folder structure should be organized for the script to work effectively.
+This structure represents how your existing folder structure should be organized for the script to work:
 
 ```sh
-- My ePubs
-  - Light Novel Series
-    - Volume 01.epub
-    - Volume 02.epub
-    - Volume 03.epub
+- My ePubs/
+  - Light Novel Series/
+    - Some Title v01.epub
+    - Some Title v02.epub
+    - Some Title v03.epub
 
-  - Another Light Novel
-    - Volume 01.epub
-    - Volume 02.epub
-    - Volume 03.epub
+  - Another Light Novel/
+    - Some Title v01.epub
+    - Some Title v02.epub
+    - Some Title v03.epub
 
-  - Random Folder
+  - Random Folder/
     - Random File.epub
+```
 
+This structure represents how the script works, based on the structure above:
+
+```sh
+- My ePubs/
+  - Light Novel Series/
+    - Light Novel Series v01.epub
+    - Light Novel Series v02.epub
+    - Light Novel Series v03.epub
+
+  - Another Light Novel/
+    - Another Light Novel v01.epub
+    - Another Light Novel v02.epub
+    - Another Light Novel v03.epub
+
+  - Random Folder/
+    - Random File.epub # script will ask what to do with this file
 ```
 
 ## Tested on Ubuntu
