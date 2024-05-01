@@ -26,15 +26,15 @@ dive into it!
 - **Informative Messages**: The script provides clear and helpful messages during the renaming process.
 - **Folder Listing**: It lists the folders it finds for processing in a user-friendly bullet point format.
 
-## Usage
+## Bash version
 
-1. **Download the Script**: Click [here](https://raw.githubusercontent.com/Decaded/epub-renamer/master/renamer.sh) to download the script. Place it in the root folder where you
+1. **Download the Script**: Click [here](https://raw.githubusercontent.com/Decaded/epub-renamer/master/Bash/renamer.sh) to download the script. Place it in the root folder where you
    have folders with files you want to rename.
 
 - You can also use `wget`:
 
 ```sh
-wget https://raw.githubusercontent.com/Decaded/epub-renamer/master/renamer.sh
+wget https://raw.githubusercontent.com/Decaded/epub-renamer/master/Bash/renamer.sh
 ```
 
 2. **Make it Executable**: Open your terminal and navigate to the script's folder. Run this command to make the script executable:
@@ -49,6 +49,35 @@ chmod +x renamer.sh
 ./renamer.sh
 ```
 
+## Python Version (Linux and Windows)
+
+If you prefer using Python, you can also utilize the script provided in the `./Python` folder. Follow the steps below to rename your ePub files using Python:
+
+1. **Download the Python Script**: Navigate to the [Python folder](./Python) in the project repository and download the `renamer.py` file. 
+Or you can use the following commands in your terminal or command prompt:
+
+  - **For Linux**:
+
+  ```sh
+  wget https://raw.githubusercontent.com/Decaded/epub-renamer/master/Python/renamer.py
+  ```
+  - **For Windows**:
+
+  ```curl
+  curl -O https://raw.githubusercontent.com/Decaded/epub-renamer/master/Python/renamer.py
+  ```
+
+2. **Run the Python Script**: Place it in the root folder where you have folders with files you want to rename. Open your terminal, navigate to the folder where you placed `renamer.py`, and execute the script using Python 3:
+
+  ```sh
+  python3 renamer.py
+  ```
+Alternatively, if you're using Windows, you can execute the script by double-clicking on it.
+
+3. **Follow the Prompts**: The Python script will guide you through the renaming process, providing instructions and asking for user input when necessary.
+4. **Enjoy the Renamed ePub Files**: Sit back and enjoy your organized digital book collection!
+
+⚠️ **Note**: the Python script offers the same functionality as the Bash script but may be more convenient for users comfortable with Python programming.
 ## Folder Structure
 
 This structure represents how your existing folder structure should be organized for the script to work:
@@ -87,9 +116,9 @@ This structure represents how the script works, based on the structure above:
     - Random File.epub # script will ask what to do with this file
 ```
 
-## Tested on Ubuntu
+## Tested on Ubuntu and Windows 11
 
-Please note that this script has been tested on Ubuntu systems. While it's likely to work on other Linux distributions, results on other operating systems may vary.
+Please note that this script has been tested on Ubuntu and Windows 11 systems. While it's likely to work on other Linux and Windows distributions, results on other operating systems may vary.
 
 ## Join the Fun
 
