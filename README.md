@@ -49,7 +49,7 @@ chmod +x renamer.sh
 ./renamer.sh
 ```
 
-## Python Version (Linux and Windows)
+## Python version (Linux and Windows)
 
 If you prefer using Python, you can also utilize the script provided in the `./Python` folder. Follow the steps below to rename your ePub files using Python:
 
