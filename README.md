@@ -1,6 +1,6 @@
 # Epub File Renamer Script
 
-This handy Bash script is here to make renaming ePub files a breeze. It's designed to help you organize your digital book collection by following a specific naming pattern. Let's
+This handy script is here to make renaming ePub files a breeze. It's designed to help you organize your digital book collection by following a specific naming pattern. Let's
 dive into it!
 
 <div align="center">
