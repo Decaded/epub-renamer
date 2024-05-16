@@ -70,7 +70,7 @@ Or you can use the following commands in your terminal or command prompt:
 2. **Run the Python Script**: Place it in the root folder where you have folders with files you want to rename. Open your terminal, navigate to the folder where you placed `renamer.py`, and execute the script using Python 3:
 
   ```sh
-  python3 renamer.py
+  python renamer.py
   ```
 Alternatively, if you're using Windows, you can execute the script by double-clicking on it.
 
